@@ -1,0 +1,238 @@
+body {
+    background-color: #CCE4FF;
+    font-family: 'Work Sans', sans-serif;
+    align-content: center;
+}
+
+main {
+    margin: 50px;
+    width: 800px;
+    background-color: white;
+}
+
+.fa {
+    color: #41566bdd;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #2982dc;
+}
+
+/* This is Resume Header */
+header {
+    background-color: #DBEDFF;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+    width: 90%;
+    max-width: 800px;
+}
+
+.intro {
+    width: 65%;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2em;
+    margin: 0;
+    margin-top: 25px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+#surname {
+    font-weight: 600;
+}
+
+.address {
+    width: 35%;
+    padding-top: 25px;
+    line-height: 2em;
+    display: flex;
+    justify-content: right;
+}
+
+#socialHndl {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#socialHndl div {
+    padding-right: 20px;
+}
+
+/* This is About Section */
+.about {
+    padding: 10px 50px;
+}
+
+#abtLink {
+    display: flex;
+    flex-direction: row;
+    /* width: 50%; */
+}
+
+#abtLink div {
+    width: 50%;
+}
+
+
+/* This is  Skills Section */
+.skills {
+    padding: 10px 50px;
+}
+
+.skills div {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills div:first-child {
+    width: 20%;
+}
+
+/* This is Education/Experience Section */
+.eduExp {
+    padding: 10px 50px;
+}
+
+.eduExp>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.eduExp div div div div {
+    padding-left: 20px;
+}
+
+.eduExp h4 {
+    line-height: 0;
+}
+
+#education,
+#experience {
+    width: 50%;
+}
+
+/* This is Intrestes Section */
+.interests {
+    padding: 10px 50px;
+}
+
+.interests ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.interests ul {
+    margin-left: -60px;
+}
+
+/* This is Resume Footer */
+footer {
+    padding: 10px 50px 50px;
+}
+
+/* Responsive CSS  */
+@media screen and (max-width: 420px) {
+
+    main {
+        margin: 5px;
+        width: 85%;
+        background-color: white;
+    }
+
+    header {
+        background-color: #DBEDFF;
+        display: flex;
+        flex-direction: column;
+        padding: 0 5%;
+        width: 90%;
+        max-width: 800px;
+    }
+
+    h1 {
+        font-size: 42px;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.2em;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    #socialHndl {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #socialHndl div p {
+        margin: 0.2em;
+    }
+
+    .address {
+        width: 100%;
+        padding-top: 25px;
+        line-height: 2em;
+        display: flex;
+        justify-content: right;
+    }
+
+    .address {
+        display: flex;
+        justify-content: left;
+    }
+
+    .about {
+        padding: 10px 20px;
+    }
+
+    #abtLink {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills {
+        padding: 10px 20px;
+    }
+
+    .skills>div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .eduExp {
+        padding: 10px 20px;
+    }
+
+    .eduExp>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #education,
+    #experience {
+        width: 100%;
+    }
+
+    .interests {
+        padding: 10px 20px;
+    }
+
+    footer {
+        padding: 10px 20px 50px;
+    }
+
+}
